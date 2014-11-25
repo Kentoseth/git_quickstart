@@ -6,8 +6,11 @@ A quick intro to git commands (work-in-progress)
 **Basic commit workflow:**
 
 > git status
+
 > git add .
+
 > git commit -m "Commit Message."
+
 > git push
 
 **Making a change to a remote repo:**
@@ -37,16 +40,19 @@ Delete:
 **Remote_master/Remote_fork/Local syncing:**
 
 > git remote add upstream https://host.com/[ORIGINAL_REPO]/[REPO_NAME].git
+
 > git fetch upstream (1)
+
 > git merge upstream/master (2)
 
-Or (1 +2):
+Or (1 + 2):
 
 > git pull upstream/master
 
 **Merging:**
 
 > git checkout branch_name
+
 > git merge branch_1
 
 Branch_1 merges with branch_name.
