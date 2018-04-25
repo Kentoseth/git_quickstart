@@ -36,6 +36,16 @@ Delete:
 
 > git checkout -d branch_name
 
+**Fetching remote branch:**
+
+If you are trying to "checkout" a new remote branch (that exists only on the remote,
+but not locally), here's what you'll need:
+
+```
+git fetch origin
+git checkout --track origin/<remote_branch_name>
+```
+
 **Remote_master/Remote_fork/Local syncing:**
 
 ```
